@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.container{
+    height: 100vh;
+    display: flex;
+    
+}
+.text-section{
+    width:70%;
+    height: 100%;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+
+}
+.text-section h1{
+    font-size:100px;
+   color: white;
+  
+}
+.text-section h2{
+    font-size:50px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: lighter;
+}
+.text-section p{
+    font-size:30px;
+    color: white;
+}
+.login-section{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+img{
+   
+    height: 30px;
+    margin-bottom: 50px;
+}
+.login-section h1{
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid  #b9bdc5;
+    width: 70%;
+    margin-bottom: 25px;
+}
+.sign-btn{
+    width: 70%;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #3399cc;
+    margin-bottom: 30px;
+}
+.create-btn{
+    width: 70%;
+    height: 40px;
+    border-color: #3399cc;
+    color: #3399cc;
+    background: none;
+    margin-bottom: 30px;
+}
+
+.create-btn2{
+    width: 70%;
+    height: 40px;
+    border-color:gray;
+    color:black;
+    background: none;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+@media only screen and
